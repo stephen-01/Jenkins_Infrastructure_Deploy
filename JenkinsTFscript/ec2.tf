@@ -105,7 +105,7 @@ resource "aws_instance" "ec2_instance" {
   #connection {
    # type        = "ssh"
     #user        = "ubuntu"
-    #private_key = file("~/Downloads/kim.pem")
+    #private_key = file("~/Downloads/script.pem")
     #host        = aws_instance.ec2_instance.public_ip
   
 
